@@ -15,7 +15,7 @@ public class Laboratory_Exercise {
         
         System.out.println("Task 1:");
         for(String i: array_str){
-            System.out.println(idx +  ": " + i);
+            System.out.println("Index " + idx +  ": " + i);
             idx++;
         }
         
@@ -31,8 +31,8 @@ public class Laboratory_Exercise {
         System.out.println("Task 2");
         
         for(int i = 0; i < array_int.length; i++){
+            System.out.println("The value of Index " + i + ": " + array_int[i]);
             total += array_int[i];
-            
         }
         System.out.println("The total is: " + total);
     }
