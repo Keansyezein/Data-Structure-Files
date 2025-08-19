@@ -1,7 +1,3 @@
-package sample1;
-
-import javafx.scene.Node;
-
 public class SinglyLinkedList {
 
 Node head;
@@ -71,9 +67,13 @@ public static SinglyLinkedList removesong(SinglyLinkedList list, String song_tit
     public static void main(String[] args){
         SinglyLinkedList list = new SinglyLinkedList();
         
-        list = insert(list, "Sing A");
-        list = insert(list, "Sing B");
-        list = insert(list, "Sing C");
+        list.insert(list, "Sing A");
+        list.insert(list, "Sing B");
+        list.insert(list, "Sing C");
+        
+        show(list);
+        
+        list.insert(list, "Sing D");
         
         show(list);
         
