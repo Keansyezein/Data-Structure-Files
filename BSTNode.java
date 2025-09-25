@@ -1,3 +1,4 @@
+
 public class BSTNode {
     int key;
     BSTNode left;
@@ -83,13 +84,13 @@ class BST{
     
     public void inorderPrint(){
         inorder(root);
-        System.out.println("null");
+        System.out.println();
     }
     
     private void inorder(BSTNode n){
         if(n != null){
             inorder(n.left);
-            System.out.print(n.key + " -> ");
+            System.out.print(n.key + " ");
             inorder(n.right);
         }
     } 
