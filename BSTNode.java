@@ -62,10 +62,10 @@ class BST{
         }
         else{
             if (n.left == null){
-                return n.left;
+                return n.right;
             }
             if (n.right == null){
-                return n.right;
+                return n.left;
             }
             
             n.key = minValue(n.right);
@@ -83,7 +83,7 @@ class BST{
     
     public void inorderPrint(){
         inorder(root);
-        System.out.println();
+        System.out.println("null");
     }
     
     private void inorder(BSTNode n){
