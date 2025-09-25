@@ -1,5 +1,3 @@
-package node;
-
 import java.util.*;
 
 class Node {
@@ -99,3 +97,4 @@ class Main {
 
     }
 }
+
